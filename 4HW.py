@@ -22,7 +22,7 @@ result_str = []
 
 for i in range(k, -1, -1):
     if i == 0:
-        str_ = (f'{koef_list[i]}')
+        str_ = f'{koef_list[i]}'
     elif i == 1:
         str_ = ('{}x'.format(koef_list[i]))
     else:
